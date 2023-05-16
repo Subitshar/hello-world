@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'myappsubi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_303744A614C147CAA6A5C03E0AD7CCE4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A28C097FC9C041FBADB9BCF4B5C1917B }}
           package: '*.jar'
